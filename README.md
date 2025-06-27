@@ -8,17 +8,37 @@
 
 ---
 
-## 🚀 Features
+💼 EnvieEats – React-Based Food Discovery Web App
+Tech Stack: React, Parcel, JavaScript (ES6+), Express.js, Node.js, Render, Vercel
 
-- 🍱 Browse a list of restaurants
-- 🔍 Search by name or cuisine
-- 🌿 Veg/Non-Veg labels (with HOC)
-- 🌟 Filter by top-rated restaurants
-- ⏳ Shimmer UI for loading
-- ⚠️ Custom error & offline detection
-- 🌐 React Router-powered navigation
+GitHub: github.com/AmritanshRaizada/EnvieEats
+Live Demo: envieeats.vercel.app
 
----
+🧠 Project Description for Resume
+Built EnvieEats, a responsive food discovery platform inspired by Swiggy, that fetches live restaurant and menu data from Swiggy’s public API. Tackled CORS restrictions by setting up a Node.js + Express proxy backend hosted on Render, enabling secure and seamless data access in the frontend.
+
+🔧 Key Features & Highlights
+⚡ Shimmer UI (Skeleton Screens): Custom shimmer loader implemented to enhance UX during data fetch, giving a modern app-like feel.
+
+🔄 Dynamic Routing: Used React Router to handle dynamic routes like /restaurants/:id and fetch detailed menu pages.
+
+🌐 Real-time Data Fetching: Used async/await with the fetch API to dynamically load restaurants and menus with loading states.
+
+⚙️ CORS Bypass via Proxy: Developed a secure Express-based backend proxy that forwards Swiggy API requests to bypass browser CORS limitations.
+
+♻️ Reusable Custom Hooks: Built useRestaurantMenu and other custom React hooks to encapsulate API logic and promote DRY principles.
+
+🎛️ Accordions for Menu Sections: Implemented collapsible accordions for food categories with toggle logic using useState.
+
+🌍 Deployed Fullstack App:
+
+Frontend: React + Parcel hosted on Vercel
+
+Backend: Express proxy server deployed on Render
+
+🖼️ Image Optimization: Swiggy images lazy-loaded with dynamic URLs for performance.
+
+🔍 Search & Filter: Built client-side filtering by restaurant name, cuisine, and top ratings using functional array methods.
 
 ## 📁 Folder Structure
 
