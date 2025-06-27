@@ -12,7 +12,7 @@
 Tech Stack: React, Parcel, JavaScript (ES6+), Express.js, Node.js, Render, Vercel
 
 GitHub: github.com/AmritanshRaizada/EnvieEats
-Live Demo: envieeats.vercel.app
+Live Demo: https://envie-eats.vercel.app/
 
 🧠 Project Description for Resume
 Built EnvieEats, a responsive food discovery platform inspired by Swiggy, that fetches live restaurant and menu data from Swiggy’s public API. Tackled CORS restrictions by setting up a Node.js + Express proxy backend hosted on Render, enabling secure and seamless data access in the frontend.
