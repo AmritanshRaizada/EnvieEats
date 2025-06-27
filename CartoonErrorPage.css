@@ -1,0 +1,138 @@
+/* Reset global elements only for this component */
+.cartoon-error-container * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cartoon-error-container {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #ffefd5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  animation: pulseBackground 3s ease-in-out infinite alternate;
+}
+
+/* Scope content styles */
+.cartoon-error-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  animation: fadeInContent 2s ease-out forwards;
+}
+
+.cartoon-error-content .cartoon-illustration img {
+  margin-bottom: 50px;
+  animation: shakeImage 5s ease-in-out infinite;
+}
+
+/* Only fade in text inside cartoon-error-content */
+.cartoon-error-content .fade-in {
+  opacity: 0;
+  animation: fadeInText 1.5s ease-out forwards;
+}
+
+.cartoon-error-content h1 {
+  font-size: 3rem;
+  color: #462009; /* Dark Brown Accent */
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  animation: fadeInText 1.5s ease-out forwards;
+}
+
+.cartoon-error-content p {
+  font-size: 1.2rem;
+  color: #462009;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  max-width: 600px;
+  margin: 10px 0;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  animation: fadeInText 1.5s ease-out forwards;
+}
+
+.cartoon-error-content .retry-button {
+  background-color: #462009; /* Dark Brown Accent */
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  animation: bounceButton 1.5s ease-in-out infinite;
+  margin-top: 3vh;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.cartoon-error-content .retry-button:hover {
+  background-color: #3b1b0e; /* Slightly darker brown for hover effect */
+  transform: scale(1.05);
+}
+
+.cartoon-error-content .retry-button:active {
+  transform: scale(0.95);
+}
+
+/* Keyframes remain unchanged */
+@keyframes pulseBackground {
+  0% {
+    background-color: #ffefd5;
+  }
+  100% {
+    background-color: #ffddc1;
+  }
+}
+
+@keyframes fadeInContent {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInText {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shakeImage {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  75% {
+    transform: rotate(-10deg);
+  }
+}
+
+@keyframes bounceButton {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}

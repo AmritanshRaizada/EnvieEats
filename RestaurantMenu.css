@@ -1,0 +1,155 @@
+/* Global Container */
+.menu-container {
+  width: 65vw;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+  font-family: "Segoe UI", sans-serif;
+  color: #1f1f1f;
+}
+
+/* Header Section */
+.menu-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.menu-icon {
+  width: 300px;
+  height: 300px;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-name {
+  font-size: 2.2rem;
+  margin: 16px 0 4px;
+  color: #222831;
+}
+
+.locality,
+.cuisines,
+.menu-title {
+  font-size: 1.1rem;
+  color: #555;
+  margin: 4px 0;
+}
+
+.menu-title {
+  margin-top: 16px;
+  font-weight: 600;
+  color: #393e46;
+}
+
+/* Accordion Section */
+.accordion-container {
+  margin-top: 30px;
+}
+
+.accordion-item {
+  border-top: 1px solid #e0e0e0;
+  padding: 16px 0;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.accordion-header:hover {
+  color: #0092ca;
+}
+
+.accordion-header h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.accordion-icon {
+  transition: transform 0.3s ease;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.accordion-icon.rotate {
+  transform: rotate(180deg);
+}
+
+/* Menu List */
+.menu-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.menu-text {
+  flex: 1;
+}
+
+.menu-text h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 6px;
+  color: #222;
+}
+
+.menu-text p {
+  margin: 4px 0;
+  font-size: 0.95rem;
+  color: #555;
+  width: 46vw;
+  line-height: 3vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Dish Image */
+.menu-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+.menu-image {
+  width: 180px;
+  height: 160px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+
+.menu-image:hover {
+  transform: scale(1.05);
+}
+/* Add to Cart Button */
+.add-to-cart-btn {
+  padding: 8px 14px;
+  background-color: #1e3a8a;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #3b82f6;
+  transform: translateY(-2px);
+}

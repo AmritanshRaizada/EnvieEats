@@ -1,0 +1,39 @@
+{
+  "name": "react-codes",
+  "version": "1.0.0",
+  "description": "Code Files React",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmritanshRaizada/React.Dev.git"
+  },
+  "keywords": [
+    "Amritansh",
+    "React",
+    "AmritanshRaizada",
+    "React.Dev",
+    "React Codes",
+    "React Codes by Amritansh",
+    "React Codes by Amritansh Raizada"
+  ],
+  "author": "Amritansh Raizada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmritanshRaizada/React.Dev/issues"
+  },
+  "homepage": "https://github.com/AmritanshRaizada/React.Dev#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "parcel": "^2.15.0",
+    "postcss": "^8.5.3"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^6.30.0"
+  }
+}
