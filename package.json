@@ -1,11 +1,10 @@
 {
-  "name": "react-codes",
+  "name": "envieeats-client",
   "version": "1.0.0",
-  "description": "Code Files React",
+  "description": "Frontend for EnvieEats - a React-based food discovery app",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html",
-    "test": "jest"
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -14,11 +13,8 @@
   "keywords": [
     "Amritansh",
     "React",
-    "AmritanshRaizada",
-    "React.Dev",
-    "React Codes",
-    "React Codes by Amritansh",
-    "React Codes by Amritansh Raizada"
+    "EnvieEats",
+    "Food App"
   ],
   "author": "Amritansh Raizada",
   "license": "ISC",
@@ -32,13 +28,8 @@
     "postcss": "^8.5.3"
   },
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^5.1.0",
-    "node-fetch": "^3.3.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^6.30.0"
-  },
-  "main": "app.js",
-  "type": "commonjs"
+  }
 }
