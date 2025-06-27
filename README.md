@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="./images/envieeats-logo.png" alt="EnvieEats Logo" width="200"/>
+  <img src="images/EnvieEats.png" alt="EnvieEats Logo" width="200"/>
 </p>
 
 <h1 align="center">EnvieEats 🍽️</h1>
