@@ -11,7 +11,6 @@
 💼 EnvieEats – React-Based Food Discovery Web App
 Tech Stack: React, Parcel, JavaScript (ES6+), Express.js, Node.js, Render, Vercel
 
-GitHub: github.com/AmritanshRaizada/EnvieEats
 Live Demo: https://envie-eats.vercel.app/
 
 🧠 Project Description for Resume
