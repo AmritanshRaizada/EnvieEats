@@ -99,7 +99,7 @@ npm start
 
 ## 🔗 Live Demo
 
-🌐 [Coming Soon — Hosted on Vercel/Netlify]
+🌐 https://envie-eats.vercel.app/
 
 ---
 
