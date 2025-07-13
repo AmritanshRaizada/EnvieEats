@@ -119,5 +119,5 @@ This project is open source under the [MIT License](LICENSE).
 
 ## 🧑‍💻 Author
 
-**Chitransh Raizada**  
-GitHub: [@yourusername](https://github.com/yourusername)
+**Amritansh Raizada**  
+
