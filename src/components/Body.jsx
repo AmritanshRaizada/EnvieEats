@@ -22,7 +22,7 @@ const Body = () => {
   const fetchData = async () => {
     try {
       const data = await fetch(
-        "https://envieeats-proxy.onrender.com/api/restaurants"
+        "https://envieeats-proxy-mrc2.onrender.com/api/restaurants"
       );
       const json = await data.json();
 
